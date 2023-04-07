@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.grid-item{
+  height: 30px;
+  width: 30px;
+  border: 2px solid;
+  border-color: lightgray;
+  border-collapse: collapse;
+}
+
+.grid {
+  display:flex;
+  height: 513px;
+  width: 550px;
+  flex-wrap: wrap;
+}
+.App {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Empty{
+  background-color: black;
+}
+
+.Snake{
+  background-color: green;
+}
+
+.Food{
+  background-color: yellow;
+}
